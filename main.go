@@ -1,11 +1,7 @@
-package main
+package gopkgtest
 
-import "github.com/nikkolasg/gopkgtest/lib"
+import "gopkg.in/nikkolasg/gopkgtest/lib"
 
 func PrintHelloWorld() {
 	lib.Print("Hello World")
-}
-
-func main() {
-	PrintHelloWorld()
 }
