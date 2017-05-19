@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
+import "github.com/nikkolasg/gopkgtest/lib"
 
 func PrintHelloWorld() {
-	fmt.Println("Hello World!")
+	lib.Print("Hello World")
 }
 
 func main() {
